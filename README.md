@@ -17,5 +17,6 @@ This repo was created for scientific reasons, namely to investigate China's imag
 4. Creating Python script _name_ which writes bash script _name_ containing repeatable commands for curl in order to keep search from results under 999 for every month starting from 1990 until nowadays.
 5. Executing bash script _name_. Downloading all search form results into separate files for every month.
 6. Creating Python script _name_ for extracting all urls into single file _name_.
-7. Writing Python script _articlesDownload.py_ which produces bash script _articlesDownload.sh_ taking urls one-by-one and downloading using curl each article into separate html file. Each file has a name referencing to its url on rg.ru.
-8. Writing some Python and bash scripts for cleaning articles files off useless html: _articlesCleanup2.py, articlesCleanup4.py, articlesCleanup5.sh, articlesCleanup3.py, articlesCleanup5bash.py, articlesCleanup.py_.
+7. Writing Python script _articlesDownload.py_ which produces bash script _articlesDownload.sh_ taking urls one-by-one and downloading using curl each article into separate html file: folder _articlesRaw_. Each file has a name referencing to its url on rg.ru.
+8. Writing some Python and bash scripts for cleaning articles files off useless html: _articlesCleanup.py, articlesCleanup2.py, articlesCleanup3.py, articlesCleanup4.py, articlesCleanup5bash.py, articlesCleanup5.sh_.
+9. After cleaning the folder _articlesRaw_ contains lite versions of articles.html. Full list is in _filesList6.txt_. Some files.html were deleted due to non-relevance ('kit' instead of 'kitai') or because of being empty (not present on rg.ru).
