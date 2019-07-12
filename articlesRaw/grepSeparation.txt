@@ -1,0 +1,11 @@
+
+Searching for articles containing _word_ 'кит'.
+grep -iwlr 'кит' > articlesKit.txt
+
+Assigning the names of all found files to variable
+F=$(cat articlesKit.txt)
+
+Using that variable (list of files) in new grep search for 'китай'
+grep -il 'китай' $F > articlesKitKitai.txt
+
+Deleting all *notKitai* = articlesKit - articlesKitKitai
