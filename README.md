@@ -10,6 +10,8 @@ This repo was created for scientific reasons, namely to investigate China's imag
 * grep
 * python
 	* scrapy
+	* pandas
+	* matplotlib
 
 ### Operations sequence
 1. *rg.ru* search form analysis. 'китай' (China in rus.) keyword is present in more than 30k articles starting from 1990s.
