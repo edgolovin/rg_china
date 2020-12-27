@@ -15,3 +15,4 @@
 1. ~~Long pause~~
 1. `articlesRaw` cleanup -> `rg_until_2019-02`: take out textual data, replacing non-readable `\xa0` and `\n` symbols: `bs.py`
 1. Filter off articles with single 'кита' embedding -> `./single_embed/`: `filter_single_embeddings.py`
+1. Delete `китано` embeddings if not 'китай' related:: `delete_kitano.py`
