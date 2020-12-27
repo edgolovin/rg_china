@@ -13,4 +13,5 @@
 1. Using `grep` in order to separate even more non-relevant articles. All used `grep` commands are listed in `grepSeparation.txt`. All deleted non-relevant articles listed in `articlesRaw/deletedNotKitai.txt`. After all we have `articlesRaw/cleanList.txt` of 32_816 relevant articles.
 1. `articlesRaw/artTimeStats.py` generates `articlesRaw/timeStats.txt` and draws on its base a plot "number of articles per month".
 1. ~~Long pause~~
-1. `articlesRaw` cleanup: take out textual data, replacing non-readable `\xa0` and `\n` symbols: `bs.py`
+1. `articlesRaw` cleanup -> `rg_until_2019-02`: take out textual data, replacing non-readable `\xa0` and `\n` symbols: `bs.py`
+1. Filter off articles with single 'кита' embedding -> `./single_embed/`: `filter_single_embeddings.py`
