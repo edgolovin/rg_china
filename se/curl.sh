@@ -1,0 +1,1 @@
+while read line; do curl --url $line  --output ${line:14} | tr / -; done < q2021-01.txt
