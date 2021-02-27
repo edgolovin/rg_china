@@ -1,3 +1,8 @@
+"""
+Load page of rg.ru with query='китай' month by month.
+Click 'more' while all articles loaded.
+Grab urls of articles.
+"""
 import time
 from pprint import pprint
 
